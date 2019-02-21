@@ -1,0 +1,92 @@
+.section-tariff {
+	width: 100%;
+	padding: 140px 0 100px;
+	background: transparent url('../../img/main/back-grey.png') no-repeat;
+	background-size: cover;
+}
+.section-tariff__table-container {
+	max-width: 950px;
+	margin: 0 auto;
+
+}
+.section-tariff__table {
+	width: 100%;
+}
+.section-tariff__capt-container {
+	width: 25%;
+	border: 2px solid #e5e5e5;
+	background-color: $section-tariff__capt-back;
+	position: relative;
+	
+}
+.section-tariff__capt-container--stock {
+	&::before {
+		content: "";
+		position: absolute;
+		width: 74px;
+		height: 73px;
+		top: 0;
+		left: 0;
+		background: transparent url('../../img/main/hit.png') no-repeat;
+	}
+}
+
+
+.section-tariff__tariff-name {
+	margin: 20px 0 5px;
+	font-size: 18px;
+	line-height: 30px;
+	color: $section-tariff;
+}
+.section-tariff__tariff-cost {
+	margin: 5px 0 20px;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 30px;
+	color: $section-tariff;
+}
+.section-tariff__tariff-options {
+	background-color: #fff;
+	width: 25%;
+	border: 2px solid #e5e5e5;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: left;
+	padding: 15px 0 15px 20px;
+	color: $section-tariff__tariff-options;
+}
+.section-tariff__tariff-cell {
+	width: 25%;
+	border: 2px solid #e5e5e5;
+	background-color: #fff;
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 950px) {
+	.section-tariff {
+		padding-bottom: 70px;
+	}
+	.section-tariff__table {
+		width: 88%;
+		margin: 0 auto;
+	}
+.section-tariff__tariff-name {
+	font-size: 16px;
+	line-height: 30px;
+	margin: 10px 0 0;
+}
+.section-tariff__tariff-cost {
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0 0 10px;
+}
+.section-tariff__tariff-options {
+	font-size: 14px;
+	line-height: 30px;
+	height: 50px;
+	padding: 0;
+	text-align: center;
+}
+	}

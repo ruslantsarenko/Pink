@@ -1,0 +1,83 @@
+.section-quote {
+	padding: 0 0 40px;
+	width: 100%;
+	
+}
+.section-quote__slider-container {
+
+}
+.quote-slider {
+	max-width: 950px;
+	padding: 165px 35px 0;
+	margin: 0 auto;
+	position: relative;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 79px;
+		height: 63px;
+		top:75px;
+		left: 50%;
+		transform: translateX(-50%);
+		background: transparent url('../../img/main/quotes.png') no-repeat;
+
+	}
+}
+.quote-slider__item {
+	width: 72%;
+	margin: 0 auto;
+
+}
+.quote-slider__quote {
+	color: $section-quote__slider;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+.quote-slider__autor {
+	font-size: 24px;
+	line-height: 30px;
+	color: $quote-slider__autor;
+	margin: 10px 0;
+}
+.quote-slider__position {
+	color: $section-quote__slider;
+	margin: 10px 0;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+.section-quote__btn-slider-prev,
+.section-quote__btn-slider-next {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: 45px;
+	height: 45px;
+	top: 50%;
+	i {
+		font-size: 40px;
+		color: #bec2c7;
+	}
+	&:hover {
+		i {
+			font-size: 45px;
+		}
+	}
+	&:focus {
+		outline: none;
+		i {
+			color: rgba(190,194,199,0.7);
+		}
+	}
+}
+.section-quote__btn-slider-prev {
+	left: 0;
+}
+.section-quote__btn-slider-next {
+	right: 0;
+
+}

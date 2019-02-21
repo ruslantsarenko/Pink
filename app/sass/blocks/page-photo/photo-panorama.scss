@@ -1,0 +1,111 @@
+.photo-panorama {
+	width: 100%;
+	padding-top: 70px;
+}
+.photo-panorama__capt {
+	font-family:$page-photo-font ;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 400;
+	color: $photo-panorama;
+	margin: 30px 0;
+}
+.photo-panorama__container {
+	margin-top: 70px;
+	width: 100%;
+
+}
+.photo-panorama__img-cont {
+	width: 100%;
+	position: relative;
+	img {
+		width: 100%;
+		min-height: 510px;
+	}
+}
+.photo-panorama__btn {
+	position: absolute;
+	top: 5%;
+	right: 10%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 20px;
+	font-family: $page-photo-font;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 36px;
+	color: #ffffff;
+	border: none;
+	border-radius: 0;
+	background-color: $photo-panorama-btn-back;
+	cursor: pointer;
+}
+.photo-panorama__comments-cont {
+	max-width: 940px;
+	margin: -6px auto 0;
+	padding: 30px;
+	@include flex-between;
+	flex-wrap: wrap;
+	background-color: $photo-background;
+}
+.photo-panorama__name-cont {
+	flex-basis: 30%;
+}
+.photo-panorama__name {
+	font-family:$page-photo-font ;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: $photo-panorama;
+}
+.photo-panorama__time-descr {
+	font-family:$page-photo-font ;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 200;
+	color: $photo-panorama;
+	text-transform: uppercase;
+}
+.photo-panorama__time {
+	font-family:$page-photo-font ;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 200;
+	color: $photo-panorama;
+	text-transform: uppercase;
+}
+.photo-panorama__like-cont {
+	flex-basis: 30%;
+	text-align: right;
+}
+.photo-panorama__like-descr,
+.photo-panorama__like-quantity {
+	text-align: inherit;
+	font-family:$page-photo-font ;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 400;
+	color: $photo-like;
+	text-transform: uppercase;
+}
+
+.photo-panorama__like-icon {
+	text-align: inherit;
+	margin-left: 15px;
+	cursor: pointer;
+	i {
+		font-size: 14px;
+		color: $photo-like;
+	}
+}
+.photo-panorama__comment-text-cont {
+
+}
+.photo-panorama__comment-text {
+	font-family:$page-photo-font ;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: $photo-panorama;
+	margin: 0;
+}

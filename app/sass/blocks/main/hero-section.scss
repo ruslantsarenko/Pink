@@ -1,0 +1,152 @@
+.hero-section {
+	height: 100vh;
+	width: 100%;
+	background: #263341 url('../../img/main/hero-back.jpg') no-repeat center;
+	background-size: cover;
+}
+.hero-section__content-wrap {
+	position: relative;
+	max-width: 990px;
+	height: 70%;
+	margin: 0 auto;
+}
+.hero-section__content {
+	position: absolute;
+	top: 60%;
+	left: 2%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.hero-section__slogan {
+	font-weight: 200;
+	color: $hero-section;
+	font-size: 50px;
+	line-height: normal;
+}
+.hero-section_btn-download {
+	color: $hero-section;
+	border-color: $hero-section;
+	&:hover {
+		color: $hero-section_btn-download-hover;
+		background: #fff;
+	}
+	&:focus {
+		color: $hero-section_btn-download-focus;
+		outline: none;
+	}
+}
+.hero-section__platforms {
+	text-align: center;
+	min-height: 65px;
+	margin: 30px 0;
+}
+.hero-section__platform-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 15px;
+	a {
+		display: block;
+		width: 47px;
+		height: 56px;
+	}
+}
+
+.hero-section__platform-apple {
+	i {
+		font-size: 60px;
+		color: #fff;
+	}
+	&:hover {
+		i {
+			font-size: 65px;
+		}
+	}
+	&:focus {
+		i {
+			color: rgba(255,255,255,0.7);
+		}
+	}
+}
+.hero-section__platform-android {
+	i {
+		font-size: 60px;
+		color: #a4c639;
+	}
+	&:hover {
+		i {
+			font-size: 65px;
+		}
+	}
+	&:focus {
+		i {
+			color: rgba(164,198,57,0.7);
+		}
+	}
+}
+.hero-section__platform-microsoft {
+	i {
+		font-size: 60px;
+		color: rgb(9,83,186);
+	}
+	&:hover {
+		i {
+			font-size: 65px;
+		}
+	}
+	&:focus {
+		i {
+			color: rgba(9,83,186,0.7);
+		}
+	}
+}
+.hero-section__platform-decr {
+	font-weight: 200;
+	color: $hero-section;
+	font-size: 18px;
+	margin: 30px 0;
+}
+.hero-section__content--mobile {
+	display: none;
+}
+@media (max-width: 950px) {
+	
+	.hero-section__slogan {
+		font-size: 40px;
+		line-height: normal;
+
+	}
+	.hero-section_btn-download {
+		margin: 0;
+	}
+}
+@media (max-width: 700px) {
+	.hero-section__slogan {
+		display: none;
+	}
+	.hero-section {
+		position: relative;
+		background-position: 78% 50%;
+
+	}
+
+	.hero-section__content {
+		display: none;
+	}
+	.hero-section__content--mobile {
+		display: block;
+		width: 100%;
+		min-height: 270px;
+		background-color: #1d2631;
+		text-align: center;
+		padding: 30px 0;
+
+	}
+	.hero-section__platform-decr {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 0;
+	}
+	.hero-section__platforms {
+		margin: 30px 0 20px;
+	}
+}

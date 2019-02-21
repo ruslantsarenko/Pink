@@ -1,0 +1,22 @@
+
+/* defoult  */
+@import 'normalize.scss';
+@import 'defoult.scss';
+@import 'mixins.scss';
+@import 'variables.scss';
+
+/* main  */
+@import 'blocks/main/hero-section.scss';
+@import 'blocks/main/main-header.scss';
+@import 'blocks/main/section-offer.scss';
+@import 'blocks/main/section-research.scss';
+@import 'blocks/main/section-quote.scss';
+@import 'blocks/main/section-tariff.scss';
+@import 'blocks/main/section-contacts.scss';
+@import 'blocks/main/main-footer.scss';
+
+/* page-photo  */
+@import 'blocks/page-photo/photo-head.scss';
+@import 'blocks/page-photo/photo-panorama.scss';
+@import 'blocks/page-photo/photo-gallery.scss';
+@import 'blocks/page-photo/photo-filters.scss'
