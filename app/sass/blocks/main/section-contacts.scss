@@ -10,7 +10,7 @@
 		height: 110px;
 		bottom: 1px;
 		transform: translateY(100%);
-		background: transparent url('../../img/main/triangle-back.png') no-repeat bottom;
+		background: transparent url('../img/main/triangle-back.png') no-repeat bottom;
 		background-size: 100% 100%;
 		z-index: 10;
 	}
@@ -52,8 +52,18 @@
 	color: $main-link;
 	text-decoration: none;
 }
+.section-contacts__item-info-phone,
+.section-contacts__item-info-adress,
+.section-contacts__item-info-mail {
+	&:hover {
+		color: $main-link-hover;
+	}
+	&:focus {
+		color: $main-link-focus;
+	}
+}
 .section-map {
-	background: transparent url('../../main/img/map.png') center no-repeat;
+	background: transparent url('../main/img/map.png') center no-repeat;
 	background-size: cover;	
 }
 @media (max-width: 950px) {

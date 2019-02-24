@@ -69,13 +69,15 @@
 	display: none;
 	border: none;
 	width: 50px;
-	height: 50px;
+	height: 4px;
 	margin: 0;
 	margin-right: 20px;
-	padding: 0;
+	padding: 20px 0;
 	border-radius: 0;
-	background: transparent url('../../../img/main/menu-burger.png') no-repeat center;
-
+	background: transparent url('../img/main/menu-burger.png') no-repeat center;
+}
+.main-header__btn-nav--close {
+background: transparent url('../img/main/menu-close.png') no-repeat center;
 }
 
 @media (max-width: 950px) {

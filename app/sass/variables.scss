@@ -1,6 +1,8 @@
 
 /*  main-color   */
 $main-link: #d22856;
+$main-link-hover: rgba($main-link, 0.6);
+$main-link-focus: rgba($main-link, 0.3);
 $main-header: #ffffff;
 $hero-section: #ffffff;
 $section-offer: #283645;
@@ -37,6 +39,7 @@ $competition-form-border-active: #d22856;
 $competition-form-label: #d22856;
 $competition-form__section-caption: #d22856;
 $competition-form__dot: #d22856;
+$competition-form-background: #f2f2f2;
 
 
 /*  fonts   */

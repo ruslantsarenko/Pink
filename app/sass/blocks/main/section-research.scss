@@ -13,9 +13,7 @@ justify-content: space-around;
 .section-research__watch {
 flex-basis: 300px;
 }
-.section-research__watch-img--desktop {
 
-}
 .section-research__watch-img--tablet {
 display: none;
 }
@@ -40,6 +38,12 @@ color: $section-research;
 }
 .section-research__more {
 	color: $main-link;
+	&:hover {
+		color: $main-link-hover;
+	}
+	&:focus {
+		color: $main-link-focus;
+	}
 }
 @media (max-width: 950px) {
 	.section-research__watch-img--desktop {
