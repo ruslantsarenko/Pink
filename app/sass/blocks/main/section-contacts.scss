@@ -57,6 +57,7 @@
 .section-contacts__item-info-mail {
 	&:hover {
 		color: $main-link-hover;
+		text-decoration: underline;
 	}
 	&:focus {
 		color: $main-link-focus;

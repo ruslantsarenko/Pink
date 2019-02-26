@@ -1,8 +1,8 @@
 
 /*  main-color   */
 $main-link: #d22856;
-$main-link-hover: rgba($main-link, 0.6);
-$main-link-focus: rgba($main-link, 0.3);
+$main-link-hover: #283645;
+$main-link-focus: rgba($main-link-hover, 0.3);;
 $main-header: #ffffff;
 $hero-section: #ffffff;
 $section-offer: #283645;
@@ -18,6 +18,7 @@ $section-tariff__capt-back: #283645;
 $section-tariff__tariff-options: #283645;
 $section-contacts__capt: #283645;
 
+
 /*  page-photo-color   */
 $photo-head__capt: #ffffff;
 $photo-panorama: #283645;
@@ -28,6 +29,7 @@ $photo-gallery: #283645;
 $photo-filters: #283645;
 $photo-filters-border: #dddfe0;
 $photo-filters-icon: #d22856;
+$photo-filters-icon-disabled: #b5b9be;
 $photo-button: #d22856;
 $photo-button-disabled: rgba($photo-filters,0.1);
 

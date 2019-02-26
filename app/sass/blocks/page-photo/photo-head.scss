@@ -19,3 +19,12 @@
 	line-height: normal;
 	color: $photo-head__capt;
 }
+
+@media (max-width: 700px) {
+.photo-head {
+	min-height: 370px;
+}
+.photo-head__capt {
+	font-size: 24px;
+}
+}

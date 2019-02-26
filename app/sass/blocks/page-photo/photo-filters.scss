@@ -125,6 +125,12 @@
 	color: $photo-button-disabled;
 	border: 3px solid $photo-button-disabled;
 }
+.photo-filters__filter--mobile {
+	display: none;
+}
+.photo-filters__show {
+	display: block !important;
+}
 @media (max-width: 950px) {
 	.photo-filters__main-cont {
 		padding: 60px 40px;
@@ -159,5 +165,76 @@
 	.photo-filters__main-cont {
 		justify-content: space-between;
 	}
+}
+@media (max-width: 700px) {
+.photo-filters__main-cont {
+	flex-wrap: wrap;
+	padding: 20px 15px;
+	justify-content: center;
+}
+.photo-filters__img-cont {
+	flex-basis: 100%;
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+.photo-filters__filters-cont {
+	flex-basis: 300px;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	
+}
+.photo-filters__filter-item {
+	display: none;
+}
+.photo-filters__post-cont {
+	
+}
+.photo-filters__filter--mobile {
+	display: block;
+text-align: center;
+padding: 30px 0 50px;
+}
+.photo-filters__btn-cont-mobile {
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	cursor: pointer;
+	min-height: 80px;
+}
+.photo-filters__btn-cont-mobile-crop input:checked+.photo-filters__btn-mobile-icon-crop,
+.photo-filters__btn-cont-mobile-fill input:checked+.photo-filters__btn-mobile-icon-fill,
+.photo-filters__btn-cont-mobile-contrast input:checked+.photo-filters__btn-mobile-icon-contrast {
+	i {
+		color: $photo-filters-icon;
+	}
+}
+.photo-filters__btn-mobile {
+	display: none;
+	
+}
+.photo-filters__btn-mobile-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	i {
+		font-size: 35px;
+		color: $photo-filters-icon-disabled;
+	}
+}
+.photo-filters__filter-form-crop--mobile,
+.photo-filters__filter-form-fill--mobile,
+.photo-filters__filter-form-contrast--mobile {
+position: absolute;
+width: 240px;
+//display: none;
+}
+.photo-filters__post-cont {
+	margin-top: 40px;
+}
+
+
 }
 

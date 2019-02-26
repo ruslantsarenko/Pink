@@ -9,8 +9,7 @@ headMenuBtn.addEventListener("click", function(event) {
 	navigationTablet.classList.toggle('show');
 	mainHead.classList.toggle('main-header--tablet-back');
 	var btnNav = document.querySelector ('.main-header__btn-nav');
-	
-	 btnNav.classList.toggle('main-header__btn-nav--close');
+	btnNav.classList.toggle('main-header__btn-nav--close');
 });
 
 var modalFail = document.querySelector(".competition-form__modal-fail");
@@ -25,7 +24,6 @@ function valid(form) {
 	var mail = document.querySelector(".competition-form__information-mail");
 	var middleName = document.querySelector(".competition-form__middle-name");
 	var phone = document.querySelector(".competition-form__information-phone");
-	
 	var arr = [surname,name,text,mail,middleName,phone];
 	var fails = 0;
 
