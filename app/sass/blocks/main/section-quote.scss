@@ -1,18 +1,13 @@
 .section-quote {
-	padding: 0 0 40px;
 	width: 100%;
-	
 }
-.section-quote__slider-container {
 
-}
 .quote-slider {
-	min-height: 380px;
-	max-width: 950px;
-	padding: 165px 35px 0;
+		max-width: 950px;
+	padding: 165px 130px 40px;
 	margin: 0 auto;
 	position: relative;
-		&::before {
+	&::before {
 		content: "";
 		position: absolute;
 		width: 79px;
@@ -25,17 +20,13 @@
 	}
 }
 .quote-slider__item {
-	display: none;
-	position: absolute;
-	top: 175px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 72%;
-	margin: 0 auto;
 
+	outline: none;
 }
+
 .quote-slider__quote {
 	color: $section-quote__slider;
+	font-family: $main-font;
 	font-size: 18px;
 	line-height: 30px;
 	margin-bottom: 45px;
@@ -43,49 +34,66 @@
 }
 .quote-slider__autor {
 	font-size: 24px;
+	font-family: $main-font;
 	line-height: 30px;
 	color: $quote-slider__autor;
 	margin: 10px 0;
 }
 .quote-slider__position {
 	color: $section-quote__slider;
+	font-family: $main-font;
 	margin: 10px 0;
 	font-size: 18px;
 	line-height: 30px;
 	text-align: center;
 }
-.section-quote__btn-slider-prev,
-.section-quote__btn-slider-next {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	border: none;
-	width: 45px;
-	height: 45px;
-	top: 50%;
-	i {
-		font-size: 40px;
-		color: #bec2c7;
+
+	.slick-arrow {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		border: none;
+		width: 45px;
+		height: 45px;
+		top: 50%;
 	}
-	&:hover {
-		i {
-			font-size: 45px;
+
+	.slick-dots {
+		visibility: hidden;
+	}
+	@media (max-width: 950px) {
+
+		.quote-slider__autor {
+			font-size: 20px;
 		}
-	}
-	&:focus {
-		outline: none;
-		i {
-			color: rgba(190,194,199,0.7);
+		.quote-slider__position {
+			font-size: 14px;
 		}
+		.slick-dots {
+			visibility: visible;
+		}
+		.slick-arrow {
+			visibility: hidden;
+		}
+
+		.quote-slider {
+			padding:  40px;
+			&:before {
+				display: none;
+			}
+		}
+
 	}
+	@media (max-width: 700px) {
+.quote-slider {
+			padding:  40px 20px;
+		}
+.quote-slider__quote {
+	font-size: 14px;
+	}
+.quote-slider__position {
+	display: none;
 }
-.quote-slider__item.curry {
-	display: block;
-}
-.section-quote__btn-slider-prev {
-	left: 0;
-}
-.section-quote__btn-slider-next {
-	right: 0;
+
 
 }

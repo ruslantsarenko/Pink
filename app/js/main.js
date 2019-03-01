@@ -14,7 +14,7 @@ var headMenuBtn = document.querySelector ('.main-header__btn-nav');
 
 	$(document).ready(function(){
 
-$('.section-quote__btn-slider-next').click(function(){
+/*$('.section-quote__btn-slider-next').click(function(){
 	var currentImage = $('.quote-slider__item.curry');
 	var currentImageIndex = $('.quote-slider__item.curry').index();
 	var nextImageIndex = currentImageIndex + 1;
@@ -43,5 +43,9 @@ prevImage.fadeIn(1500);
 prevImage.addClass('curry');
 
 
+});*/
+$('.single-item').slick({
+	dots: true
 });
+
 });

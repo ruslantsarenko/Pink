@@ -27,9 +27,7 @@ $(document).ready(function(){
 				max: 100,
 				step: 1,
 			});
-		});
 
-		$(document).ready(function(){
 			$( ".photo-filters__filter-fill" ).slider({
 				animate: true,
 				range: "min",
@@ -38,9 +36,7 @@ $(document).ready(function(){
 				max: 100,
 				step: 1,
 			});
-		});
 
-		$(document).ready(function(){
 			$( ".photo-filters__filter-contrast" ).slider({
 				animate: true,
 				range: "min",
@@ -51,14 +47,29 @@ $(document).ready(function(){
 			});
 		});
 
-/*function myFunction() {
+		
+
+function myFunction() {
 	var btnFill = document.querySelector ('.photo-filters__btn-mobile-fill');
-	var rangeFill = document.querySelector ('.photo-filters__filter-form-fill--mobile');
+	var btnCrop = document.querySelector ('.photo-filters__btn-mobile-crop');
+var btnContrast = document.querySelector ('.photo-filters__btn-mobile-contrast');
+var rangeFill = document.querySelector ('.photo-filters__filter-form-fill--mobile');
+var rangeCrop = document.querySelector ('.photo-filters__filter-form-crop--mobile');
+var rangeContrast = document.querySelector ('.photo-filters__filter-form-contrast--mobile');
+var arr = [rangeFill,rangeCrop,rangeContrast]
+
+for (var i=0; i<arr.length;i++) {
+arr[i].style.display = "none";
+}
+
 if (btnFill.checked == true) {
 rangeFill.style.display = "block";
 }
-else {
-	rangeFill.style.display = "none";
+else if (btnCrop.checked == true) {
+rangeCrop.style.display = "block";
 }
-}*/
+else if (btnContrast.checked == true) {
+rangeContrast.style.display = "block";
+}
+}
 

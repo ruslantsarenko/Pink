@@ -3,6 +3,7 @@
 	padding-top: 70px;
 }
 .section-offer__capt {
+	font-family: $main-font;
 	font-weight: 200;
 	font-size: 50px;
 	line-height: normal;
@@ -23,9 +24,8 @@
 }
 .section-offer__item {
 	flex-basis: 33%;
-	img {
-		margin: 0 auto;
-	}
+	text-align: center;
+	
 }
 .section-offer__descr-container {
 	flex-basis: 100%;
@@ -44,16 +44,19 @@
 	display: none;
 }
 .section-offer__slogan {
+	font-family: $main-font;
 	line-height: 30px;
 	margin-top: 55px;
 	color: $section-offer__slogan;
 }
 .section-offer__descr {
+	font-family: $main-font;
 	font-size: 18px;
 	line-height: 30px;
 	color: $section-offer;
 }
 .section-research__more {
+	font-family: $main-font;
 	font-size: 18px;
 	line-height: 30px;
 	color: $main-link;
@@ -138,6 +141,7 @@
 	}
 	.section-offer__img--mobile {
 	display: block;
+	margin: 0 auto;
 }
 .section-offer__items-container {
 	flex-wrap: wrap;

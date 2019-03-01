@@ -30,16 +30,16 @@
 		background: transparent url('../img/main/hit.png') no-repeat;
 	}
 }
-
-
 .section-tariff__tariff-name {
 	margin: 20px 0 5px;
-	font-size: 18px;
+	font-family: $main-font;
+		font-size: 18px;
 	line-height: 30px;
 	color: $section-tariff;
 }
 .section-tariff__tariff-cost {
 	margin: 5px 0 20px;
+	font-family: $main-font;
 	font-weight: 200;
 	font-size: 24px;
 	line-height: 30px;
@@ -47,6 +47,7 @@
 }
 .section-tariff__tariff-options {
 	background-color: #fff;
+	font-family: $main-font;
 	width: 25%;
 	border: 2px solid #e5e5e5;
 	font-size: 18px;

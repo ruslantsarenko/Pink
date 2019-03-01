@@ -22,6 +22,7 @@ flex-basis: 55%;
 }
 .section-research__capt {
 margin: 90px 0 25px;
+font-family: $main-font;
 font-size: 30px;
 line-height: 36px;
 text-align: left;
@@ -32,11 +33,13 @@ br {
 }
 .section-research__descr {
 margin: 15px 0 40px;
+font-family: $main-font;
 font-size: 18px;
 line-height: 30px;
 color: $section-research;
 }
 .section-research__more {
+	font-family: $main-font;
 	color: $main-link;
 	&:hover {
 		color: $main-link-hover;

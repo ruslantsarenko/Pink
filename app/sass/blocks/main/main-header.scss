@@ -29,11 +29,7 @@
 .main-header__logo--mobile {
 	display: none;
 }
-.main-header__navigation {
-}
-.main-header__navigation-items-wrap {
-	
-}
+
 .main-header__navigation-item-container {
 	display: inline-block;
 	vertical-align: middle;
@@ -45,6 +41,7 @@
 	}
 .main-header__navigation-item {
 	color: $main-header;
+	font-family: $main-font;
 		font-size: 18px;
 		line-height: 18px;
 		text-decoration: none;
@@ -76,6 +73,7 @@
 	border-radius: 0;
 	outline: none;
 	background: transparent url('../img/main/menu-burger.png') no-repeat center;
+
 }
 .main-header__btn-nav--close {
 background: transparent url('../img/main/menu-close.png') no-repeat center;
@@ -137,10 +135,10 @@ background: transparent url('../img/main/menu-close.png') no-repeat center;
 	font-weight: bold;
 	padding: 0;
 	&:hover {
-		color: #d22856;
+		color: $header-nav-hover;
 	}
 	&:focus {
-		color: #6c3148;
+		color: $header-nav-focus;
 	}
 	&:hover::after{
 		display: none;
