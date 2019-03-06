@@ -76,6 +76,9 @@
 .main-footer .photo-footer__container {
 	max-width: 1020px;
 }
+.section-tariff__mobile {
+	display: none;
+}
 @media (max-width: 950px) {
 	.main-footer__creator-capt {
 		font-size: 14px;
@@ -95,5 +98,10 @@
 	.main-footer {
 		display: none;
 	}
-
+.section-tariff__mobile {
+	display: block;
+}
+.section-tariff__table {
+	display: none;
+}
 }

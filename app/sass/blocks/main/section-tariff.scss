@@ -20,6 +20,7 @@
 	
 }
 .section-tariff__capt-container--stock {
+	position: relative;
 	&::before {
 		content: "";
 		position: absolute;
@@ -33,7 +34,7 @@
 .section-tariff__tariff-name {
 	margin: 20px 0 5px;
 	font-family: $main-font;
-		font-size: 18px;
+	font-size: 18px;
 	line-height: 30px;
 	color: $section-tariff;
 }
@@ -65,6 +66,60 @@
 		margin: 0 auto;
 	}
 }
+.section-tariff__mobile {
+	display: none;
+}
+.section-tariff__tariff-name-mobile {
+	margin: 20px 0 5px;
+	font-family: $main-font;
+	font-size: 18px;
+	line-height: 30px;
+	color: $section-tariff;
+}
+.section-tariff__tariff-cost-mobile {
+	margin: 5px 0 20px;
+	font-family: $main-font;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 30px;
+	color: $section-tariff;
+}
+.center .slick-dots {
+	bottom: -70px;
+}
+
+	.section-tariff__mobile-option-name-cont {
+		position: relative;
+		border: 1px solid #e5e5e5;
+		
+	background-color: $section-tariff__capt-back;
+	}
+	.section-tariff__mobile-option-cont {
+border: 1px solid #e5e5e5;
+border-top: none;
+border-bottom: 2px solid #e5e5e5;
+	background-color: #fff;
+	padding: 16px 20px 12px;
+		display: flex;
+	justify-content: space-between;
+	}
+	.section-tariff__mobile-option-decr {
+font-family: $main-font;
+	font-weight: 400;
+	margin: 0;
+	font-size: 14px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: $section-tariff__tariff-options;
+	}
+	.section-tariff__mobile-option-img {
+width: 31px;
+height: 26px;
+
+	}
+	.single-item2>.slick-dots {
+		bottom: -70px;
+	}
 @media (max-width: 950px) {
 	.section-tariff {
 		padding-bottom: 70px;
@@ -73,21 +128,33 @@
 		width: 88%;
 		margin: 0 auto;
 	}
-.section-tariff__tariff-name {
-	font-size: 16px;
-	line-height: 30px;
-	margin: 10px 0 0;
-}
-.section-tariff__tariff-cost {
-	font-size: 18px;
-	line-height: 30px;
-	margin: 0 0 10px;
-}
-.section-tariff__tariff-options {
-	font-size: 14px;
-	line-height: 30px;
-	height: 50px;
-	padding: 0;
-	text-align: center;
-}
+	.section-tariff__tariff-name {
+		font-size: 16px;
+		line-height: 30px;
+		margin: 10px 0 0;
 	}
+	.section-tariff__tariff-cost {
+		font-size: 18px;
+		line-height: 30px;
+		margin: 0 0 10px;
+	}
+	.section-tariff__tariff-options {
+		font-size: 14px;
+		line-height: 30px;
+		height: 50px;
+		padding: 0;
+		text-align: center;
+	}
+}
+
+@media (max-width: 700px) {
+	.section-tariff__mobile {
+		display: block;
+	}
+	.section-tariff__table-container {
+		display: none;
+	}
+
+
+
+}
