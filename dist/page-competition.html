@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>page-competition</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="competition-head photo-head">
+		<header class="main-header">
+			<div class="main-header__container-wrap">
+				<div class="main-header__container">
+					<div class="main-header__logo-container">
+						<a href="index.html" class="main-header__logo">
+							<img class="main-header__logo--desctop" src="img/main/logo-header.png" alt="">
+							<img class="main-header__logo--tablet" src="img/main/logo-header-tablet.png" alt="">
+							<img class="main-header__logo--mobile" src="img/main/logo-header-mobile.png" alt="">
+						</a>
+					</div>
+					<button class="main-header__btn-nav "></button>
+					<nav class="main-header__navigation main-header__navigation--tablet">
+						<ul class="main-header__navigation-items-wrap">
+							<li class="main-header__navigation-item-container">
+								<a class="main-header__navigation-item" href="index.html">Главная</a>
+							</li>
+							<li class="main-header__navigation-item-container">
+								<a href="page-photo.html" class="main-header__navigation-item" >Фотографии</a>
+							</li>
+							<li class="main-header__navigation-item-container">
+								<a class="main-header__navigation-item">Конкурс</a>
+							</li>
+							<li class="main-header__navigation-item-container">
+								<a class="main-header__navigation-item" href="https://htmlacademy.ru/">HTML Academy</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="competition-head__capt-container photo-head__capt-container">
+			<h1 class="competition-head__capt photo-head__capt">Конкурс на самое <br>безбашенное <br> путешествие с Пинк</h1>
+		</div>
+	</div>
+	<div class="competition-form">
+		<h2 class="competition-form__capt">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!<span class="competition-form__capt competition-form__capt--desktop"> Пожалуйста, заполните форму ниже:</span></h2>
+		<form class="competition-form__form" action="" method="post" name="form" id="competition-form__form">
+			<div class="competition-form__container">
+				<div class="competition-form__fullname-cont">
+					<div class="competition-form__fullname-item">
+						<label class="competition-form__fullname-label competition-form__label" for="competition-form__surname">Фамилия:</label>
+						<div class="competition-form__surname-wrap">
+							<input class="competition-form__surname competition-form__input-text" name="form__surname" id="competition-form__surname" type="text" placeholder="Укажите фамилию">
+						</div>
+					</div>
+					<div class="competition-form__fullname-item">
+						<label class="competition-form__fullname-label competition-form__label" for="competition-form__name">Имя:</label>
+						<div class="competition-form__name-wrap">
+							<input class="competition-form__name competition-form__input-text" name="form__name" id="competition-form__name" type="text" placeholder="Введите ваше имя">
+						</div>
+					</div>
+					<div class="competition-form__fullname-item">
+						<label class="competition-form__fullname-label competition-form__label" for="competition-form__middle-name">Отчество:  </label>
+						<div class="competition-form__middle-name-wrap">
+							<input class="competition-form__middle-name competition-form__input-text" name="form__middleName" id="competition-form__middle-name" type="text" placeholder="Ну и отчество тоже">
+						</div>
+					</div>
+				</div>
+				<div class="competition-form__platform-cont competition-form__section-container">
+					<div class="competition-form__section-caption-container">
+						<h3 class="competition-form__section-caption">С каким приложением путешествовали?</h3>
+					</div>
+					<div class="competition-form__platform-item">
+						<label class="competition-form__platform-ios-label competition-form__platform-label" for="competition-form__platform-ios">
+							<input class="competition-form__platform" type="radio" id="competition-form__platform-ios" name="competition-form__platform" checked="checked">Pink для iOS
+							<span class="competition-form__radio-dot competition-form__radio-dot-ios"></span>
+						</label>
+					</div>
+					<div class="competition-form__platform-item">
+						<label class="competition-form__platform-android-label competition-form__platform-label" for="competition-form__platform-android">
+							<input class="competition-form__platform" type="radio" id="competition-form__platform-android" name="competition-form__platform">Pink на Android
+							<span class="competition-form__radio-dot competition-form__radio-dot-android"></span>
+						</label>
+					</div>
+					<div class="competition-form__platform-item">
+						<label class="competition-form__platform-windows-label competition-form__platform-label" for="competition-form__platform-windows" >
+							<input class="competition-form__platform" type="radio" id="competition-form__platform-windows" name="competition-form__platform">Windows Phone
+							<span class="competition-form__radio-dot competition-form__radio-dot-windows"></span>
+						</label>
+					</div>
+				</div>
+				<div class="competition-form__information-cont competition-form__section-container">
+					<div class="competition-form__section-caption-container">
+						<h3 class="competition-form__section-caption
+						competition-form__information-caption">Контактная информация</h3>
+					</div>
+					<div class="competition-form__information-phone-container">
+						<label class="competition-form__label competition-form__phone-label--mobile" for="competition-form__information-phone">Номерок телефончика</label>
+						<input class="competition-form__input-text competition-form__information-phone" type="text" id="competition-form__information-phone" name="phone" placeholder="+7 ХХХ ХХХ-ХХ-ХХ">
+						<label class="competition-form__label competition-form__phone-label" for="competition-form__information-phone">номер телефона</label>
+					</div>
+					<div class="competition-form__information-mail-container">
+						<label class="competition-form__label
+						competition-form__mail-label--mobile" for="competition-form__information-mail">адресок почты</label>
+						<input class="competition-form__input-text
+						competition-form__information-mail" type="text" id="competition-form__information-mail" name="mail" placeholder="Введите почту">
+						<label class="competition-form__label competition-form__mail-label" for="competition-form__information-mail">Адрес почты</label>
+					</div>
+				</div>
+				<div class="competition-form__achievments-cont competition-form__section-container">
+					<div class="competition-form__section-caption-container">
+						<h3 class="competition-form__section-caption">Ваши безбашенные достижения в путешествии</h3>
+					</div>
+					<ul class="competition-form__achievments-list-cont">
+						<li class="competition-form__achievment-wrap">
+							<label class="competition-form__achievment-label
+							competition-form__achievment-shark-label" for="competition-form__achievment-shark">
+							<input class="competition-form__achievment competition-form__achievment-shark" id="competition-form__achievment-shark" type="checkbox" checked="checked">Сделал селфи с акулой
+							<span class="competition-form_achivment-field competition-form_achivment-field-shark"></span>
+						</label>
+					</li>
+					<li class="competition-form__achievment-wrap">
+						<label class="competition-form__achievment-label
+						competition-form__achievment-chuck-label" for="competition-form__achievment-chuck">
+						<input class="competition-form__achievment competition-form__achievment-chuck" id="competition-form__achievment-chuck" type="checkbox">Видел Чака Норриса
+						<span class="competition-form_achivment-field competition-form_achivment-field-chuck"></span>
+					</label>
+				</li>
+				<li class="competition-form__achievment-wrap">
+					<label class="competition-form__achievment-label competition-form__achievment-tower-label" for="competition-form__achievment-tower">
+						<input class="competition-form__achievment competition-form__achievment-tower" id="competition-form__achievment-tower" type="checkbox" checked="checked">Удержал башню
+						<span class="competition-form_achivment-field competition-form_achivment-field-tower"></span>
+					</label>
+				</li>
+				<li class="competition-form__achievment-wrap">
+					<label class="competition-form__achievment-label competition-form__achievment-beach-label" for="competition-form__achievment-beach">
+						<input class="competition-form__achievment competition-form__achievment-beach" id="competition-form__achievment-beach" type="checkbox" checked="checked">Обгорел на пляже
+						<span class="competition-form_achivment-field competition-form_achivment-field-beach"></span>
+					</label>
+				</li>
+				<li class="competition-form__achievment-wrap">
+					<label class="competition-form__achievment-label competition-form__achievment-souvenir-label" for="competition-form__achievment-souvenir">
+						<input class="competition-form__achievment competition-form__achievment-souvenir" id="competition-form__achievment-souvenir" type="checkbox">Накупил сувениров
+						<span class="competition-form_achivment-field competition-form_achivment-souvenir"></span>
+					</label>
+				</li>
+				<li class="competition-form__achievment-wrap">
+					<label class="competition-form__achievment-label competition-form__achievment-crush-label" for="competition-form__achievment-crush">
+						<input class="competition-form__achievment competition-form__achievment-crush" id="competition-form__achievment-crush" type="checkbox">Разгромил отель
+						<span class="competition-form_achivment-field competition-form_achivment-field-crush"></span>
+					</label>
+				</li>
+			</ul>
+		</div>
+		<div class="competition-form__text-cont competition-form__section-container">
+			<div class="competition-form__section-caption-container">
+				<h3 class="competition-form__section-caption">Опишите свои эмоции</h3>
+			</div>
+			<div class="competition-form__input-text-wrap">
+				<textarea class="competition-form__text" name="form__text" id="competition-form__text" rows="3" cols="60" placeholder="Можно прям в красках, не стесняясь в выражениях" ></textarea>
+			</div>
+		</div>
+		<div class="competition-form__submit-info-cont">
+			<div class="competition-form__submit-cont">
+				<input type="button" class="competition-form__submit" value="Отправить форму" name="submit" onclick="valid(document.getElementById('competition-form__form'))">
+			</div>
+			<div class="competition-form__inform-cont">
+				<span class="competition-form__inform"><span class="competition-form__text-color">*</span> — обязательные <span class="competition-form__inform--desktop">для заполнения </span>поля</span>
+			</div>
+		</div>
+	</div>
+</form>
+<div class="competition-form__modal-success">
+	<div class="competition-form__success-descr-cont">
+		<h2 class="competition-form__success-capt">Ваша заявка отправлена</h2>
+		<p class="competition-form__success-descr">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+	</div>
+	<div class="competition-form__success-btn-cont">
+		<button class="competition-form__success-btn competition-form__submit">ЗАКРЫТЬ ОКНО</button>
+	</div>
+</div>
+<div class="competition-form__modal-overlay"></div>
+<div class="competition-form__modal-fail">
+	<h2 class="competition-form__fail-capt">Что-то пошло не так!</h2>
+	<p class="competition-form__fail-descr">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+	<button class="competition-form__fail-btn competition-form__submit">OK</button>
+</div>
+</div>
+<footer class="main-footer">
+	<div class="main-footer__container photo-footer__container">
+		<div class="main-footer__logo-cont">
+			<a href="index.html" class="main-footer__logo"><img class="main-footer__logo-img--desctop" src="img/main/logo-footer.png" alt="">
+				<img class="main-footer__logo-img--tablet" src="img/main/logo-footer-tablet.png" alt=""></a>
+			</div>
+			<div class="main-footer__social-cont">
+				<ul class="main-footer__social">
+					<li class="main-footer__social-item">
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li class="main-footer__social-item">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li class="main-footer__social-item">
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="main-footer__creator-cont">
+				<span class="main-footer__creator-capt">Разработано</span>
+				<a href="#" class="main-footer__creator"></a>
+			</div>
+		</div>
+	</footer>
+	<script src="js/page-competition.js"></script>
+</body>
+</html>
