@@ -1,23 +1,19 @@
 .hero-section {
-	height: 100vh;
 	width: 100%;
 	background: #263341 url('../img/main/hero-back.jpg') no-repeat center;
 	background-size: cover;
 }
 .hero-section__content-wrap {
-	position: relative;
 	max-width: 990px;
-	height: 70%;
+	text-align: center;
 	margin: 0 auto;
 }
 .hero-section__content {
-	position: absolute;
-	top: 60%;
-	left: 2%;
-	transform: translateY(-50%);
-	text-align: center;
+	padding: 20px;
+	width: 340px;
 }
 .hero-section__slogan {
+	margin: 30px 0;
 	font-family: $main-font;
 	font-weight: 200;
 	color: $hero-section;
@@ -129,7 +125,7 @@
 	.hero-section {
 		position: relative;
 		background-position: 78% 50%;
-
+		min-height: 450px;
 	}
 
 	.hero-section__content {

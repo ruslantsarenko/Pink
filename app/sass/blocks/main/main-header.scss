@@ -146,6 +146,12 @@ background: transparent url('../img/main/menu-close.png') no-repeat center;
 }
 }
 @media (max-width: 700px) {
+	.main-header {
+	min-height: 70px;
+	}
+	.main-header__container {
+		min-height: 70px;
+	}
 	.main-header__btn-nav {
 		margin-right: 30px;
 	}
